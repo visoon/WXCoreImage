@@ -8,6 +8,12 @@
 
 import UIKit
 
-class WXCoreImageConstants: NSObject {
-
-}
+//MARK: CICategoryBlur
+let kCIGaussianBlur = "CIGaussianBlur"
+let kCIBoxBlur = "CIBoxBlur"
+let kCIDiscBlur = "CIDiscBlur"
+let kCIMaskedVariableBlur = "CIMaskedVariableBlur"
+let kCIMedianFilter = "CIMedianFilter"
+let kCIMotionBlur = "CIMotionBlur"
+let kCINoiseReduction = "CINoiseReduction"
+let kCIZoomBlur = "CIZoomBlur"
